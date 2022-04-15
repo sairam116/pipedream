@@ -7,7 +7,7 @@ export default {
   propDefinitions: {
     inputField: {
       type: "any",
-      label: "Value to evaluate",
+      label: "Operand1 - Value to evaluate",
       description: "Enter a value here or reference one from a previous step to evaluate.",
     },
     condition: {
@@ -19,7 +19,7 @@ export default {
     },
     valueToCompare: {
       type: "any",
-      label: "Value to compare against",
+      label: "Operand2 - Value to compare against",
       description: "Enter another value here or reference one from a previous step to compare the initial value against.",
     },
     logicalOperator: {

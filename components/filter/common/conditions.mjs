@@ -23,84 +23,83 @@ const constants = {
 
 const options = [
   {
-    label: "Contains",
+    label: "Contains (text) - [operand1] contains [operand2]",
     value: constants.IN,
   },
   {
-    label: "Does not contain (text)",
+    label: "Does not contain (text) - [operand1] does not contain [operand2]",
     value: constants.NOT_IN,
   },
   {
-    label: "Matches exactly (text)",
+    label: "Matches exactly (text) - [operand1] matches exactly [operand2]",
     value: constants.TEXT_EQUALS,
   },
   {
-    label: "Does not exactly match (text)",
+    label: "Does not exactly match (text) - [operand1] does not exactly match [operand2]",
     value: constants.TEXT_NOT_EQUALS,
   },
   {
-    label: "Starts with (text)",
+    label: "Starts with (text) - [operand1] starts with [operand2]",
     value: constants.STARTS_WITH,
   },
   {
-    label: "Does not start with (text)",
+    label: "Does not start with (text) - [operand1] does not start with [operand2]",
     value: constants.NOT_STARTS_WITH,
   },
   {
-    label: "Ends with (text)",
+    label: "Ends with (text) - [operand1] ends with [operand2]",
     value: constants.ENDS_WITH,
   },
   {
-    label: "Does not end with (text)",
+    label: "Does not end with (text) - [operand1] does not end with [operand2]",
     value: constants.NOT_ENDS_WITH,
   },
   {
-    label: "Greater than (number)",
+    label: "Greater than (number) - [operand1] is greater than [operand2]",
     value: constants.GREATER_THAN,
   },
-
   {
-    label: "Greater than or equals (number)",
+    label: "Greater than or equals (number) - [operand1] is greater than or equal to [operand2]",
     value: constants.GREATER_THAN_EQUALS,
   },
   {
-    label: "Less than (number)",
+    label: "Less than (number) - [operand1] is less than [operand2]",
     value: constants.LESS_THAN,
   },
   {
-    label: "Less than or equals (number)",
+    label: "Less than or equals (number) - [operand1] is less than or equal to [operand2]",
     value: constants.LESS_THAN_EQUALS,
   },
   {
-    label: "Is equal to (number)",
+    label: "Is equal to (number) - [operand1] is equal to [operand2]",
     value: constants.EQUALS,
   },
   {
-    label: "After (date/time)",
+    label: "After (date/time) - [operand1] is after [operand2]",
     value: constants.AFTER,
   },
   {
-    label: "Before (date/time)",
+    label: "Before (date/time) - [operand1] is before [operand2]",
     value: constants.BEFORE,
   },
   {
-    label: "Equals (date/time)",
+    label: "Equals (date/time) - [operand1] is equal to [operand2]",
     value: constants.DATE_EQUALS,
   },
   {
-    label: "Is True (boolean)",
+    label: "Is True (boolean) - [operand1] is true",
     value: constants.TRUE,
   },
   {
-    label: "Is False (boolean)",
+    label: "Is False (boolean) - [operand1] is false",
     value: constants.FALSE,
   },
   {
-    label: "Exists",
+    label: "Exists (object) - [operand2] key exists in [operand1]",
     value: constants.EXISTS,
   },
   {
-    label: "Does not exist",
+    label: "Does not exist (object) - [operand2] key does not exist in [operand1]",
     value: constants.NOT_EXISTS,
   },
 ];
