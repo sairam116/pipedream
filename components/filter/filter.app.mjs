@@ -30,7 +30,7 @@ export default {
         operators.AND,
         operators.OR,
       ],
-      optional: true,
+      default: "",
       reloadProps: true,
     },
     continue: {

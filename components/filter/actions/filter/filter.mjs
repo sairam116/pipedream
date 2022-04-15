@@ -154,7 +154,7 @@ export default {
      */
     getLastPropIndex() {
       let index = 0;
-      while (this.getOperator(index) !== undefined) {
+      while (this.getOperator(index)) {
         index++;
       }
       return index;
@@ -199,7 +199,7 @@ export default {
     for (let index = 0; index <= lastIndex; index++) {
       const operator = this.getOperator(index);
 
-      if (operator === undefined) {
+      if (operator === "") {
         break;
       }
 
